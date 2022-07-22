@@ -34,3 +34,7 @@ del_o = (d[0]-out)*(1-out)*out
 print(del_o)
 del_hid = del_o*(y)
 print(del_hid)
+#update weights
+c=1
+w = w + c*del_o*(np.transpose(y))
+print("updated weights", w)
