@@ -36,5 +36,6 @@ del_hid = del_o*(y)
 print(del_hid)
 #update weights
 c=1
-w = w + c*del_o*(np.transpose(y))
+w = w + c*del_o*y
 print("updated weights", w)
+print("weight dimension", w.shape)
