@@ -23,7 +23,7 @@ print("Teachers value:\n",d)
 print("Initial Value of v:\n",v)
 ### Forward propagation
 neta=1                                                    #Fix neta value
-iteration=9000                                           #set Iteration up to 5000
+iteration=9000                                           #set Iteration up to 9000
 for i in range(1,iteration):
     for j,n in enumerate(z):
         #print("----Iteration----",i)
